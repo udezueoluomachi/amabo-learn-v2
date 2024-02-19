@@ -7,8 +7,6 @@ export default function Home() {
 
   return (
     <>
-    <h1 className="">hello nigga</h1>
-    <a href=".">home</a>
     </>
   )
 }
