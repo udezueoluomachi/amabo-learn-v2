@@ -18,6 +18,25 @@ export default function Home() {
         </a>
       </div>
     </div>
+    <div className="h-full w-full bg-white-1 p-10 py-14" >
+      <h2 className="text-black text-xl md:text-3xl font-medium">
+        RECENT LESSONS
+      </h2>
+      <div className="w-11/12 h-5/6 mt-10 mx-auto flex items-center justify-around flex-wrap md:flex-nowrap">
+        <a href="#article" title="read new lesson" className="w-1/3 min-w-[310px] h-full hover:-scale-75 border m-2 border-grey/10 rounded-md border-solid">
+          <div></div>
+          <div></div>
+        </a>
+        <a href="#article" title="read new lesson" className="w-1/3 min-w-[310px] h-full hover:-scale-75 border m-2 border-grey/10 rounded-md border-solid">
+          <div></div>
+          <div></div>
+        </a>
+        <a href="#article" title="read new lesson" className="w-1/3 min-w-[310px] h-full hover:-scale-75 border m-2 border-grey/10 rounded-md border-solid">
+          <div></div>
+          <div></div>
+        </a>
+      </div>
+    </div>
     </>
   )
 }
