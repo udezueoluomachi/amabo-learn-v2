@@ -5,9 +5,9 @@ export default function Home() {
   return (
     <>
     <Header />
-    <div className="flex justify-center items-center h-full w-full bg-bg bg-no-repeat bg-white-1 bg-cover bg-center bg-local" >
-      <div className="bg-white-1/85 max-w-[850px] h-max min-w-[310px] min-h-[350px] p-10">
-        <p className="text-black font-extrabold text-3xl">
+    <div className="flex justify-center md:items-center h-full w-full bg-bg bg-no-repeat bg-white-1 bg-cover bg-center bg-local pt-10" >
+      <div className="bg-white-1/85 max-w-[850px] h-max min-w-[310px] min-h-[350px] p-4 md:p-10">
+        <p className="text-black font-extrabold text-xl md:text-3xl">
           <span className="text-orange-1">CREATED</span> AND <span className="text-orange-1">RUN</span> BY YOUNG AND INNOVATIVE MINDS WHO ARE WORKING TO HELP <span className="text-purple">HIGHSCHOOL</span> STUDENTS GET ACCESS TO
         </p>
         <p className="text-black mt-4">
