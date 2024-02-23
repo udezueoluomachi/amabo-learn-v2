@@ -1,4 +1,5 @@
 import Header from "@/components/Header"
+import Footer from "@/components/Footer"
 
 export const metadata = {
   title : "Explore Available Subjects - Amabo Learn",
@@ -10,6 +11,7 @@ export default function Home() {
   return (
     <>
     <Header />
+    <Footer />
     </>
   )
 }
