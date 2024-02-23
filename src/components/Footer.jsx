@@ -23,23 +23,8 @@ const Footer = () => {
                                 </a>
                             </li>
                             <li>
-                                <a href="#contact" className="text-white-1 hover:underline" title="Our social link" >
-                                    Instagram
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#contact" className="text-white-1 hover:underline" title="Our social link" >
-                                    Twitter
-                                </a>
-                            </li>
-                            <li>
                                 <a href="https://github.com/udezueoluomachi/amabo-learn-v2" className="text-white-1 hover:underline" title="Our social link" >
                                     Github
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#contact" className="text-white-1 hover:underline" title="Our social link" >
-                                    Telegram
                                 </a>
                             </li>
                         </ul>
