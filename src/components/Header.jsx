@@ -1,7 +1,7 @@
 const Header = () => {
     return (
         <>
-            <header className="absolute top-0 flex items-center justify-between w-full px-3 md:px-10 h-[15vh] max-h-[60px] md:max-h-[90px] md:min-h-[85px]">
+            <header className="md:absolute top-0 flex items-center justify-between w-full px-3 md:px-10 h-[15vh] max-h-[60px] md:max-h-[90px] md:min-h-[85px]">
                 <a href="." className="flex items-center select-none" title="Amabo learn homepage." >
                     <img  className="h-6 w-6 mr-2" src="/logo.png" />
                     <span className="text-orange-2 text-lg md:text-2xl font-bold" >AMABO LEARN</span>

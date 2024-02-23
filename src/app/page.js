@@ -18,12 +18,12 @@ export default function Home() {
         </a>
       </div>
     </div>
-    <div className="h-full w-full bg-white-1 p-10 py-14" >
+    <div className="w-full bg-white-1 p-4 md:py-10 py-14" >
       <h2 className="text-black-1 text-xl md:text-3xl font-medium">
         RECENT LESSONS
       </h2>
       <div className="w-11/12 h-5/6 mt-10 mx-auto flex items-center justify-around flex-wrap md:flex-nowrap">
-        <a href="#article" title="read new lesson" className="w-1/3 min-w-[310px] h-full hover:scale-95 transition border m-2 border-grey/10 rounded-md border-solid">
+        <a href="#article" title="read new lesson" className="w-11/12 md:w-1/3 h-[400px] md:h-[465px] hover:scale-95 transition border m-2 border-grey/10 rounded-md border-solid">
           <div className="flex justify-center items-center w-full bg-orange-2/40 h-2/3">
             <div className="flex justify-center items-center w-44 h-10 bg-orange-2">
               <p className="text-white-1 font-bold text-lg md:text-xl">
@@ -35,7 +35,7 @@ export default function Home() {
             <p className="text-black-1/90 font-bold text-base md:text-lg text-center" >Title of the lesson</p>
           </div>
         </a>
-        <a href="#article" title="read new lesson" className="w-1/3 min-w-[310px] h-full hover:scale-95 transition border m-2 border-grey/10 rounded-md border-solid">
+        <a href="#article" title="read new lesson" className="w-11/12 md:w-1/3 h-[400px] md:h-[465px] hover:scale-95 transition border m-2 border-grey/10 rounded-md border-solid">
           <div className="flex justify-center items-center w-full bg-purple/40 h-2/3">
             <div className="flex justify-center items-center w-44 h-10 bg-purple">
               <p className="text-white-1 font-bold text-lg md:text-xl">
@@ -47,7 +47,7 @@ export default function Home() {
             <p className="text-black-1/90 font-bold text-base md:text-lg text-center" >Title of the lesson</p>
           </div>
         </a>
-        <a href="#article" title="read new lesson" className="w-1/3 min-w-[310px] h-full hover:scale-95 transition border m-2 border-grey/10 rounded-md border-solid">
+        <a href="#article" title="read new lesson" className="w-11/12 md:w-1/3 h-[400px] md:h-[465px] hover:scale-95 transition border m-2 border-grey/10 rounded-md border-solid">
           <div className="flex justify-center items-center w-full bg-grey/40 h-2/3">
             <div className="flex justify-center items-center w-44 h-10 bg-grey">
               <p className="text-white-1 font-bold text-lg md:text-xl">
@@ -62,8 +62,11 @@ export default function Home() {
       </div>
     </div>
 
-    <div className="flex justify-between h-full w-full bg-white-1 p-10 py-14" >
-      <div>
+    <div className="flex justify-between items-center flex-wrap md:flex-nowrap w-full md:divide-x-4 divide-orange-1 bg-white-1 p-10 py-14" >
+      <div className="w-1/2 min-w-[310px] h-[420px] md:h-[480px]">
+        
+      </div>
+      <div className="w-1/2 min-w-[310px] h-[420px] md:h-[480px]">
         
       </div>
     </div>
