@@ -64,7 +64,7 @@ export default function Home() {
       </div>
     </div>
 
-    <div className="flex justify-between items-center flex-wrap md:flex-nowrap bg-grey/10 w-full divide-y-4 md:divide-y-0 md:divide-x-4 divide-orange-1 bg-white-1 py-14" >
+    <div className="flex justify-between items-center flex-wrap md:flex-nowrap bg-grey/10 w-full divide-y-4 md:divide-y-0 md:divide-x-4 divide-orange-1 py-14" >
       <div className="w-11/12 md:w-1/2 min-w-[310px] h-[420px] md:h-[480px] p-4 md:p-10">
         <p className="text-black-1 text-xl md:text-3xl font-bold">
           WANT TO HELP POST CONTENT ?
