@@ -11,6 +11,11 @@ export default function Home() {
   return (
     <>
     <Header />
+    <div className="mt-20 h-2 w-full py-10">
+      <h1>
+        EXPLORE 
+      </h1>
+    </div>
     <Footer />
     </>
   )
