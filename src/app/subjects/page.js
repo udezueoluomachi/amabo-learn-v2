@@ -1,5 +1,6 @@
 import Header from "@/components/Header"
 import Footer from "@/components/Footer"
+import Link from 'next/link'
 
 export const metadata = {
   title : "Explore Available Subjects - Amabo Learn",
@@ -18,21 +19,24 @@ export default function Home() {
       <div className="px-4 py-8 h-max min-h-40 w-full bg-white-2">
         <ul>
             <li>
-                <a href="./physics" className="text-black-1 hover:underline" title="View topics on this subject" >
+                <Link href="./physics" className="text-black-1 hover:underline" title="View topics on this subject" >
                     Physics
-                </a>
+                </Link>
             </li>
             <li>
-                <a href="./mathematics" className="text-black-1 hover:underline" title="View topics on this subject" >
+                <Link href="./mathematics" className="text-black-1 hover:underline" title="View topics on this subject" >
                     Mathematics
-                </a>
+                </Link>
             </li>
             <li>
-                <a href="./biology" className="text-black-1 hover:underline" title="View topics on this subject" >
+                <Link href="./biology" className="text-black-1 hover:underline" title="View topics on this subject" >
                     Biology
-                </a>
+                </Link>
             </li>
         </ul>
+        <p className="text-xs text-BLACK-1 mt-20 font-light text-center">
+          MAIL US  OR CHECK BACK LATER IF YOU DO  NOT FIND WHAT YOU SEEK
+        </p>
       </div>
     </div>
     <Footer />
