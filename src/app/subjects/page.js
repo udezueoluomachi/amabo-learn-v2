@@ -19,17 +19,17 @@ export default function Home() {
       <div className="px-4 py-8 h-max min-h-40 w-full bg-white-2">
         <ul>
             <li>
-                <Link href="./physics" className="text-black-1 hover:underline" title="View topics on this subject" >
+                <Link href="./subjects/physics" className="text-black-1 hover:underline" title="View topics on this subject" >
                     Physics
                 </Link>
             </li>
             <li>
-                <Link href="./mathematics" className="text-black-1 hover:underline" title="View topics on this subject" >
+                <Link href="./subjects/mathematics" className="text-black-1 hover:underline" title="View topics on this subject" >
                     Mathematics
                 </Link>
             </li>
             <li>
-                <Link href="./biology" className="text-black-1 hover:underline" title="View topics on this subject" >
+                <Link href="./subjects/biology" className="text-black-1 hover:underline" title="View topics on this subject" >
                     Biology
                 </Link>
             </li>
