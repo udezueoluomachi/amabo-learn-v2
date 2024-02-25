@@ -29,7 +29,10 @@ module.exports = {
         'gradient-conic':
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
         "bg" : "url('/bg.png')",
-        "pattern" : "url('/pattern.png')"
+        "pattern" : "url('/pattern.png')",
+        "biology" : "url('/Biologist-pana.png')",
+        "physics" : "url('/people creating robot-pana.png')",
+        "mathematics" : "url('/Teacher-pana.png')",
       },
     },
   },

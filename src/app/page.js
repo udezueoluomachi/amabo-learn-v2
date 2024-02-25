@@ -25,36 +25,42 @@ export default function Home() {
         RECENT LESSONS
       </h2>
       <div className="w-11/12 h-5/6 mt-10 mx-auto flex items-center justify-around flex-wrap md:flex-nowrap">
-        <Link href="#article" title="read new lesson" className="w-11/12 md:w-1/3 h-[400px] md:h-[465px] hover:scale-95 transition border m-2 border-grey/10 rounded-md border-solid">
-          <div className="flex justify-center items-center w-full bg-orange-2/40 h-2/3">
-            <div className="flex justify-center items-center w-44 h-10 bg-orange-2">
-              <p className="text-white-1 font-bold text-lg md:text-xl">
-                Physics
-              </p>
+        <Link href="#article" title="read new lesson" className="w-11/12 md:w-1/3 h-[400px] md:h-[465px] hover:scale-95 transition border m-2 border-grey/10 rounded-md border-solid bg-white-3">
+          <div className="w-full bg-orange-2/40 h-2/3">
+            <div className="w-full h-full bg-physics bg-no-repeat bg-cover bg-center bg-local flex justify-center items-center ">
+              <div className="flex justify-center items-center w-44 h-10 bg-orange-2">
+                <p className="text-white-1 font-bold text-lg md:text-xl">
+                  Physics
+                </p>
+              </div>
             </div>
           </div>
           <div className="p-4">
             <p className="text-black-1/90 font-bold text-base md:text-lg text-center" >Concept of Work</p>
           </div>
         </Link>
-        <Link href="#article" title="read new lesson" className="w-11/12 md:w-1/3 h-[400px] md:h-[465px] hover:scale-95 transition border m-2 border-grey/10 rounded-md border-solid">
-          <div className="flex justify-center items-center w-full bg-purple/40 h-2/3">
-            <div className="flex justify-center items-center w-44 h-10 bg-purple">
-              <p className="text-white-1 font-bold text-lg md:text-xl">
-                Biology
-              </p>
+        <Link href="#article" title="read new lesson" className="w-11/12 md:w-1/3 h-[400px] md:h-[465px] hover:scale-95 transition border m-2 border-grey/10 rounded-md border-solid bg-white-3">
+          <div className="w-full bg-purple/40 h-2/3">
+            <div className="w-full h-full bg-biology bg-no-repeat bg-cover bg-center bg-local flex justify-center items-center ">
+              <div className="flex justify-center items-center w-44 h-10 bg-purple">
+                <p className="text-white-1 font-bold text-lg md:text-xl">
+                  Biology
+                </p>
+              </div>
             </div>
           </div>
           <div className="p-4">
             <p className="text-black-1/90 font-bold text-base md:text-lg text-center" >Conservation of Natural Resources</p>
           </div>
         </Link>
-        <Link href="#article" title="read new lesson" className="w-11/12 md:w-1/3 h-[400px] md:h-[465px] hover:scale-95 transition border m-2 border-grey/10 rounded-md border-solid">
-          <div className="flex justify-center items-center w-full bg-grey/40 h-2/3">
-            <div className="flex justify-center items-center w-44 h-10 bg-grey">
-              <p className="text-white-1 font-bold text-lg md:text-xl">
-                Mathematics
-              </p>
+        <Link href="#article" title="read new lesson" className="w-11/12 md:w-1/3 h-[400px] md:h-[465px] hover:scale-95 transition border m-2 border-grey/10 rounded-md border-solid bg-white-3">
+          <div className="w-full bg-grey/40 h-2/3">
+            <div className="w-full h-full bg-mathematics bg-no-repeat bg-cover bg-center bg-local flex justify-center items-center ">
+              <div className="flex justify-center items-center w-44 h-10 bg-grey">
+                <p className="text-white-1 font-bold text-lg md:text-xl">
+                  Mathematics
+                </p>
+              </div>
             </div>
           </div>
           <div className="p-4">
