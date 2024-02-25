@@ -34,7 +34,7 @@ export default function Home() {
             </div>
           </div>
           <div className="p-4">
-            <p className="text-black-1/90 font-bold text-base md:text-lg text-center" >Title of the lesson</p>
+            <p className="text-black-1/90 font-bold text-base md:text-lg text-center" >Concept of Work</p>
           </div>
         </Link>
         <Link href="#article" title="read new lesson" className="w-11/12 md:w-1/3 h-[400px] md:h-[465px] hover:scale-95 transition border m-2 border-grey/10 rounded-md border-solid">
@@ -46,7 +46,7 @@ export default function Home() {
             </div>
           </div>
           <div className="p-4">
-            <p className="text-black-1/90 font-bold text-base md:text-lg text-center" >Title of the lesson</p>
+            <p className="text-black-1/90 font-bold text-base md:text-lg text-center" >Conservation of Natural Resources</p>
           </div>
         </Link>
         <Link href="#article" title="read new lesson" className="w-11/12 md:w-1/3 h-[400px] md:h-[465px] hover:scale-95 transition border m-2 border-grey/10 rounded-md border-solid">
@@ -58,7 +58,7 @@ export default function Home() {
             </div>
           </div>
           <div className="p-4">
-            <p className="text-black-1/90 font-bold text-base md:text-lg text-center" >Title of the lesson</p>
+            <p className="text-black-1/90 font-bold text-base md:text-lg text-center" >Quadratic Expressions</p>
           </div>
         </Link>
       </div>
@@ -86,7 +86,7 @@ export default function Home() {
           To become an admin on this platform, you would be interviewed online by the owners of this platform and if you pass the interview, an acess pin would be sent to you which you would use to signup to become an admin
         </p>
         <p className="text-black-1 text-base fontnormal mt-10">
-          Kindly end an email to <a href="mailto:user@example.com" className="text-purple hover:opacity-60" title="Send us an email" >our email address</a> describing how you can help this platform if you are an admin. After acquiring the access pin, fill the <Link href="./signup" className="text-purple hover:opacity-60" title="Signup to help post educative content." >signup form</Link>
+          Kindly end an email to <a href="mailto:amabolearnintake@gmail.com" className="text-purple hover:opacity-60" title="Send us an email" >our email address</a> describing how you can help this platform if you are an admin. After acquiring the access pin, fill the <Link href="./signup" className="text-purple hover:opacity-60" title="Signup to help post educative content." >signup form</Link>
         </p>
         <p className="text-black-1 text-base fontnormal mt-10">
           Joining us is voluntary and you would not be paid for the services you provide.

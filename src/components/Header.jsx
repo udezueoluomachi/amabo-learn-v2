@@ -8,7 +8,7 @@ const Header = () => {
                     <img  className="h-6 w-6 mr-2" src="/logo.png" />
                     <span className="text-orange-2 text-lg md:text-2xl font-bold" >AMABO LEARN</span>
                 </Link>
-                <a href="mailto:user@example.com" className="outline-offset-2 hover:outline-2 hover:outline-dashed hover:outline-orange-1 text-white-1 hidden md:block font-normal text-sm md:text-base bg-orange-1 py-1 px-4 rounded-full" title="Send us an email" >
+                <a href="mailto:amabolearnintake@gmail.com" className="outline-offset-2 hover:outline-2 hover:outline-dashed hover:outline-orange-1 text-white-1 hidden md:block font-normal text-sm md:text-base bg-orange-1 py-1 px-4 rounded-full" title="Send us an email" >
                     MAIL US
                 </a>
             </header>
