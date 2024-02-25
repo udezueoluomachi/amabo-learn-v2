@@ -19,7 +19,7 @@ export default function Home() {
       <div className="px-4 py-8 h-max min-h-40 w-full bg-white-2">
         <ul>
             <li>
-                <Link href="./subjects/biology#" className="text-black-1 hover:underline" title="Read article" >
+                <Link href="./biology#" className="text-black-1 hover:underline" title="Read article" >
                     Conservation of Natural Resources
                 </Link>
             </li>

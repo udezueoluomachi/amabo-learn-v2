@@ -19,7 +19,7 @@ export default function Home() {
       <div className="px-4 py-8 h-max min-h-40 w-full bg-white-2">
         <ul>
             <li>
-                <Link href="./subjects/mathematics#" className="text-black-1 hover:underline" title="Read article" >
+                <Link href="./mathematics#" className="text-black-1 hover:underline" title="Read article" >
                     Quadratic Expressions
                 </Link>
             </li>
