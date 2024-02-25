@@ -17,7 +17,7 @@ export default function Home() {
         EXPLORE AVAILABLE BIOLOGY TOPICS
       </h1>
       <div className="px-4 py-8 h-max min-h-40 w-full bg-white-2">
-        <ul>
+        <ul className="list-disc list-inside">
             <li>
                 <Link href="./biology#" className="text-black-1 hover:underline" title="Read article" >
                     Conservation of Natural Resources
