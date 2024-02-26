@@ -29,6 +29,11 @@ const Footer = () => {
                                     Github
                                 </a>
                             </li>
+                            <li>
+                                <a href="https://amabolearnsspace.quora.com/" className="text-white-1 hover:underline" title="Our social link" >
+                                    Quora
+                                </a>
+                            </li>
                         </ul>
                     </div>
                 </div>
