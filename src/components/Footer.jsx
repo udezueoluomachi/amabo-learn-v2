@@ -20,17 +20,17 @@ const Footer = () => {
                     <div className="mt-4">
                         <ul>
                             <li>
-                                <a href="https://web.facebook.com/profile.php?id=100077235709724" className="text-white-1 hover:underline" title="Our social link" >
+                                <a href="https://web.facebook.com/profile.php?id=100077235709724" className="text-white-3 hover:underline" title="Our social link" >
                                     Facebook
                                 </a>
                             </li>
                             <li>
-                                <a href="https://github.com/udezueoluomachi/amabo-learn-v2" className="text-white-1 hover:underline" title="Our social link" >
+                                <a href="https://github.com/udezueoluomachi/amabo-learn-v2" className="text-white-3 hover:underline" title="Our social link" >
                                     Github
                                 </a>
                             </li>
                             <li>
-                                <a href="https://amabolearnsspace.quora.com/" className="text-white-1 hover:underline" title="Our social link" >
+                                <a href="https://amabolearnsspace.quora.com/" className="text-white-3 hover:underline" title="Our social link" >
                                     Quora
                                 </a>
                             </li>
