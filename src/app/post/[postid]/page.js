@@ -17,7 +17,7 @@ export default function Home({params}) {
         <h2 className="text-purple font-bold text-2xl md:text-4xl mt-14 md:mt-20" >SUBJECT FULL TOPIC</h2>
       </div>
     </div>
-    <div className="flex justify-between flex-col md:flex-row w-full text-white-2 p-10 mt-12">
+    <div className="flex justify-between flex-col md:flex-row w-full text-white-2 p-5 md:p-10 mt-12">
         <div className="bg-black-1 w-full md:w-2/4 min-w-[315px] max-w-[500px] h-max px-4 py-6 mt-6" >
             <h3 className="text-xl md:text-2xl font-bold">
                 LEARNING OBJECTIVES
@@ -69,10 +69,10 @@ export default function Home({params}) {
             </ul>
         </div>
     </div>
-    <div className="px-4 py-8 h-max mx-10 w-full bg-white-2">
+    <div className="px-4 py-8 h-max  w-full border-2">
         MAIN CONTENT
     </div>
-    <div className="flex justify-between flex-col md:flex-row w-full text-white-2 p-10 mt-12">
+    <div className="flex justify-between flex-col md:flex-row w-full text-white-2 p-5 md:p-10 mt-12">
         <div className="bg-orange-1 w-full md:w-2/4 min-w-[315px] max-w-[500px] h-max px-4 py-6 mt-6" >
             <h3 className="text-xl md:text-2xl font-bold">
                 SUMMARY
