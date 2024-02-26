@@ -69,10 +69,12 @@ export default function Home({params}) {
             </ul>
         </div>
     </div>
-    <div className="w-full h-max mx-6 bg-white-2">
-        <p>
-        MAIN CONTENT
-        </p>
+    <div className="w-full px-6">
+        <div className="w-full h-max p-6 bg-white-2">
+            <p>
+            MAIN CONTENT
+            </p>
+        </div>
     </div>
     <div className="flex justify-between flex-col md:flex-row w-full text-white-2 p-5 md:p-10 mt-12">
         <div className="bg-orange-1 w-full md:w-2/4 max-w-[500px] h-max px-4 py-6 mt-6 md:mx-10" >
