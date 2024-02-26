@@ -69,7 +69,7 @@ export default function Home({params}) {
             </ul>
         </div>
     </div>
-    <div className="w-full px-6">
+    <div className="w-full px-6 md:px-20">
         <div className="w-full h-max p-6 bg-white-2">
             <p>
             MAIN CONTENT
