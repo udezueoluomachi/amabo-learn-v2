@@ -18,7 +18,7 @@ export default function Home({params}) {
       </div>
     </div>
     <div className="flex justify-between flex-col md:flex-row w-full text-white-2 p-5 md:p-10 mt-12">
-        <div className="bg-black-1 w-full md:w-2/4 min-w-[315px] max-w-[500px] h-max px-4 py-6 mt-6" >
+        <div className="bg-black-1 w-full md:w-2/4 max-w-[500px] h-max px-4 py-6 mt-6 md:mx-10" >
             <h3 className="text-xl md:text-2xl font-bold">
                 LEARNING OBJECTIVES
             </h3>
@@ -49,7 +49,7 @@ export default function Home({params}) {
                 </li>
             </ul>
         </div>
-        <div className="bg-black-1 w-full md:w-2/4 min-w-[315px] max-w-[500px] h-max px-4 py-6 mt-6" >
+        <div className="bg-black-1 w-full md:w-2/4 max-w-[500px] h-max px-4 py-6 mt-6 md:mx-10" >
             <h3 className="text-xl md:text-2xl font-bold">
                 MINI GLOSSARY
             </h3>
@@ -69,11 +69,13 @@ export default function Home({params}) {
             </ul>
         </div>
     </div>
-    <div className="px-4 py-8 h-max  w-full border-2">
+    <div className="w-full h-max mx-6 bg-white-2">
+        <p>
         MAIN CONTENT
+        </p>
     </div>
     <div className="flex justify-between flex-col md:flex-row w-full text-white-2 p-5 md:p-10 mt-12">
-        <div className="bg-orange-1 w-full md:w-2/4 min-w-[315px] max-w-[500px] h-max px-4 py-6 mt-6" >
+        <div className="bg-orange-1 w-full md:w-2/4 max-w-[500px] h-max px-4 py-6 mt-6 md:mx-10" >
             <h3 className="text-xl md:text-2xl font-bold">
                 SUMMARY
             </h3>
@@ -104,7 +106,7 @@ export default function Home({params}) {
                 </li>
             </ul>
         </div>
-        <div className="bg-orange-1 w-full md:w-2/4 min-w-[315px] max-w-[500px] h-max px-4 py-6 mt-6" >
+        <div className="bg-orange-1 w-full md:w-2/4 max-w-[500px] h-max px-4 py-6 mt-6 md:mx-10" >
             <h3 className="text-xl md:text-2xl font-bold">
                 EXERCISE
             </h3>
